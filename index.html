@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angkasa 03 - Rental Motor Terpercaya di Kota Kupang</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col">
+
+    <!-- Header / Navbar -->
+    <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-amber-500 text-slate-900 p-2.5 rounded-xl font-black text-xl tracking-wider flex items-center justify-center shadow-inner">
+                    <i class="fa-solid fa-motorcycle"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-black tracking-tight text-white block">ANGKASA <span class="text-amber-400">03</span></span>
+                    <span class="text-xs text-slate-400 font-medium block">Rental Motor Terpercaya di Kota Kupang</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-sm">
+                <a href="#beranda" class="hover:text-amber-400 transition">Beranda</a>
+                <a href="#armada" class="hover:text-amber-400 transition">Armada</a>
+                <a href="#kalkulator" class="hover:text-amber-400 transition">Reservasi & Tarif</a>
+                <a href="#wilayah" class="hover:text-amber-400 transition">Cakupan Wilayah</a>
+                <a href="#syarat" class="hover:text-amber-400 transition">Syarat & Ketentuan</a>
+            </nav>
+            <div>
+                <a href="#kalkulator" class="bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold px-5 py-2.5 rounded-xl text-sm transition shadow-lg shadow-amber-500/20 inline-flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-base"></i> Pesan Cepat
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="relative bg-slate-900 text-white py-20 lg:py-28 overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="inline-flex items-center gap-2 bg-amber-500/10 text-amber-400 border border-amber-500/20 px-3.5 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-6">
+                    <i class="fa-solid fa-location-dot"></i> Kupang • Soe • Kefa • Atambua • Malaka
+                </span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+                    Jelajahi Indahnya <span class="text-amber-400">Pulau Timor</span> Bersama Angkasa 03
+                </h1>
+                <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+                    Solusi sewa motor terpercaya di Kota Kupang. Unit terawat, anda pesan kami siap antar di Wilayah Kota Kupang dengan pilihan kendaraan Honda Scoopy dan Yamaha NMAX terbaik.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#kalkulator" class="bg-amber-500 hover:bg-amber-400 text-slate-900 font-bold px-8 py-4 rounded-xl text-center transition shadow-xl shadow-amber-500/20 flex items-center justify-center gap-2">
+                        <span>Pesan Motor Sekarang</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#armada" class="bg-slate-800 hover:bg-slate-700 text-white font-bold px-8 py-4 rounded-xl text-center transition border border-slate-700">
+                        Lihat Armada
+                    </a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-gradient-to-tr from-amber-500/20 to-blue-500/20 rounded-3xl p-3 border border-slate-700 backdrop-blur-sm shadow-2xl">
+                    <div class="bg-slate-800 rounded-2xl p-6 text-center space-y-6">
+                        <div class="inline-block p-4 bg-amber-500/10 text-amber-400 rounded-2xl text-4xl">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white">Kenapa Memilih Angkasa 03?</h3>
+                        <div class="grid grid-cols-2 gap-4 text-left">
+                            <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-700/50">
+                                <div class="text-amber-400 font-bold text-lg mb-1">Free Helm</div>
+                                <div class="text-xs text-slate-400">Helm SNI & jas hujan bersih setiap unit.</div>
+                            </div>
+                            <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-700/50">
+                                <div class="text-amber-400 font-bold text-lg mb-1">Delivery</div>
+                                <div class="text-xs text-slate-400">Gratis antar jemput untuk pemesanan dan pengembalian kendaraan.</div>
+                            </div>
+                            <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-700/50">
+                                <div class="text-amber-400 font-bold text-lg mb-1">Mesin Prima</div>
+                                <div class="text-xs text-slate-400">Servis berkala rutin untuk kenyamanan berkendara konsumen.</div>
+                            </div>
+                            <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-700/50">
+                                <div class="text-amber-400 font-bold text-lg mb-1">24/7 Support</div>
+                                <div class="text-xs text-slate-400">Bantuan darurat perjalanan.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Armada Section -->
+    <section id="armada" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-xs font-bold text-amber-600 uppercase tracking-widest mb-3">Pilihan Kendaraan</h2>
+            <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Armada Utama Kami</h3>
+            <p class="text-slate-600 mt-4">Unit matic tangguh dan nyaman untuk melibas jalur perkotaan Kupang maupun lintas kabupaten berbukit.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <!-- Scoopy Card -->
+            <div class="bg-white rounded-3xl border border-slate-200 shadow-xl overflow-hidden flex flex-col justify-between hover:border-amber-400 transition duration-300">
+                <div class="p-6 bg-gradient-to-b from-slate-100 to-white border-b border-slate-100 flex justify-between items-center">
+                    <div>
+                        <span class="bg-amber-100 text-amber-800 text-xs font-bold px-3 py-1 rounded-full uppercase">Stylish & Irit</span>
+                        <h4 class="text-2xl font-black text-slate-900 mt-2">Honda Scoopy</h4>
+                    </div>
+                    <div class="text-right">
+                        <span class="text-xs text-slate-500 block">Mulai dari</span>
+                        <span class="text-xl font-extrabold text-amber-600">Rp 100rb <span class="text-xs text-slate-500 font-normal">/ hari</span></span>
+                    </div>
+                </div>
+                <div class="p-6 space-y-4 flex-1">
+                    <p class="text-slate-600 text-sm">Sangat lincah untuk keliling Kota Kupang, irit bahan bakar, dan bagasi luas untuk perlengkapan harian Anda.</p>
+                    <ul class="space-y-2 text-sm text-slate-700">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Transmisi Matic eSP</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Bagasi luas</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Termasuk Helm SNI + Jas Hujan</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-slate-50 border-t border-slate-100">
+                    <button onclick="pilihMotor('Honda Scoopy', 85000)" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 rounded-xl transition text-sm flex items-center justify-center gap-2">
+                        Pilih Scoopy <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- NMAX Card -->
+            <div class="bg-white rounded-3xl border border-slate-200 shadow-xl overflow-hidden flex flex-col justify-between hover:border-amber-400 transition duration-300">
+                <div class="p-6 bg-gradient-to-b from-slate-100 to-white border-b border-slate-100 flex justify-between items-center">
+                    <div>
+                        <span class="bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-full uppercase">Premium & Nyaman</span>
+                        <h4 class="text-2xl font-black text-slate-900 mt-2">Yamaha NMAX</h4>
+                    </div>
+                    <div class="text-right">
+                        <span class="text-xs text-slate-500 block">Mulai dari</span>
+                        <span class="text-xl font-extrabold text-amber-600">Rp 150rb <span class="text-xs text-slate-500 font-normal">/ hari</span></span>
+                    </div>
+                </div>
+                <div class="p-6 space-y-4 flex-1">
+                    <p class="text-slate-600 text-sm">Pilihan terbaik untuk perjalanan jauh antar kabupaten di Pulau Timor (Kupang ke Soe, Kefa, Atambua dan Malaka) dengan posisi berkendara santai.</p>
+                    <ul class="space-y-2 text-sm text-slate-700">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Mesin 155cc VVA bertenaga</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Suspensi empuk untuk jalan berbukit</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-amber-500"></i> Termasuk Helm SNI + Jas Hujan</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-slate-50 border-t border-slate-100">
+                    <button onclick="pilihMotor('Yamaha NMAX', 135000)" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 rounded-xl transition text-sm flex items-center justify-center gap-2">
+                        Pilih NMAX <i class="fa-solid fa-arrow-right text-xs"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kalkulator & Reservasi Section -->
+    <section id="kalkulator" class="py-20 bg-slate-900 text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">Kalkulator & Pemesanan</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">Hitung Harga & Booking Cepat</h3>
+                <p class="text-slate-400 mt-4">Pilih armada, tentukan titik jemput, dan hitung estimasi biaya secara otomatis.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 bg-slate-800 p-8 sm:p-10 rounded-3xl border border-slate-700 shadow-2xl">
+                <!-- Form Inputs -->
+                <div class="lg:col-span-2 space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-300 mb-2">Pilih Armada</label>
+                            <select id="pilihanArmada" onchange="hitungTotal()" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-400">
+                                <option value="Honda Scoopy" data-harga="100000">Honda Scoopy - Rp 100.000 / hari</option>
+                                <option value="Yamaha NMAX" data-harga="150000">Yamaha NMAX - Rp 150.000 / hari</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-300 mb-2">Durasi Sewa (Hari)</label>
+                            <input type="number" id="jumlahHari" min="1" value="1" oninput="hitungTotal()" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-400">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-300 mb-2">Wilayah / Kabupaten Tujuan</label>
+                            <select id="wilayahTujuan" onchange="hitungTotal()" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-400">
+                                <option value="Kupang (Kota)" data-ongkir="0">Kupang (Kota & Sekitar) - Bebas biaya tambahan</option>
+                                <option value="Soe (TTS)" data-ongkir="50000">Soe (Kab. Timor Tengah Selatan) + Rp 50rb / hari</option>
+                                <option value="Kefamenanu (TTU)" data-ongkir="75000">Kefamenanu (Kab. Timor Tengah Utara) + Rp 75rb / hari</option>
+                                <option value="Atambua (Belu)" data-ongkir="100000">Atambua (Kab. Belu) + Rp 100rb / hari</option>
+                                <option value="Malaka (Betun)" data-ongkir="90000">Malaka (Kab. Malaka) + Rp 90rb / hari</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-300 mb-2">Titik Penjemputan / Pengantaran</label>
+                            <select id="titikJemput" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-400">
+                                <option value="Bandara El Tari Kupang">Bandara El Tari Kupang</option>
+                                <option value="Pelabuhan Tenau Kupang">Pelabuhan Tenau Kupang</option>
+                                <option value="Hotel / Penginapan Area Kota">Hotel / Penginapan Area Kota</option>
+                                <option value="Kantor/Pool Angkasa 03">Kantor / Pool Angkasa 03</option>
+                                <option value="Alamat Lain (Isi di Chat)">Alamat Lain (Custom di Chat)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-300 mb-2">Nama Lengkap</label>
+                            <input type="text" id="namaLengkap" placeholder="Masukkan nama Anda" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-400 placeholder:text-slate-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-300 mb-2">Nomor WhatsApp</label>
+                            <input type="text" id="noWa" placeholder="Contoh: 081234567890" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-400 placeholder:text-slate-500">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Summary Card -->
+                <div class="bg-slate-900 rounded-2xl p-6 border border-slate-700 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-4 border-b border-slate-800 pb-3">Rincian Estimasi Biaya</h4>
+                        <div class="space-y-3 text-sm text-slate-300">
+                            <div class="flex justify-between">
+                                <span id="labelArmada">Honda Scoopy (1 Hari)</span>
+                                <span id="hargaUnit" class="font-semibold text-white">Rp 85.000</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span id="labelWilayah">Wilayah Kupang</span>
+                                <span id="hargaOngkir" class="font-semibold text-white">Rp 0</span>
+                            </div>
+                            <div class="border-t border-slate-800 pt-3 flex justify-between text-base font-bold text-white">
+                                <span>Total Estimasi</span>
+                                <span id="totalHarga" class="text-amber-400">Rp 85.000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <button onclick="kirimWhatsApp()" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 rounded-xl transition shadow-lg shadow-emerald-600/20 flex items-center justify-center gap-2 text-base">
+                            <i class="fa-brands fa-whatsapp text-xl"></i> Reservasi via WhatsApp
+                        </button>
+                        <p class="text-xs text-slate-400 text-center mt-3">Terhubung langsung dengan admin operasional Angkasa 03.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cakupan Wilayah Section -->
+    <section id="wilayah" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-xs font-bold text-amber-600 uppercase tracking-widest mb-3">Area Operasional</h2>
+            <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Cakupan Wilayah Pulau Timor</h3>
+            <p class="text-slate-600 mt-4">Kami melayani penyewaan motor untuk mobilitas di dalam kota maupun perjalanan lintas kabupaten di Pulau Timor.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center space-y-3 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center mx-auto text-xl font-bold">
+                    <i class="fa-solid fa-city"></i>
+                </div>
+                <h4 class="font-bold text-slate-900 text-lg">Kupang</h4>
+                <p class="text-xs text-slate-500">Pusat kota, Bandara El Tari, Pelabuhan Tenau, & kampus.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center space-y-3 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center mx-auto text-xl font-bold">
+                    <i class="fa-solid fa-mountain-sun"></i>
+                </div>
+                <h4 class="font-bold text-slate-900 text-lg">Soe</h4>
+                <p class="text-xs text-slate-500">Kab. Timor Tengah Selatan (TTS), udara sejuk pegunungan.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center space-y-3 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center mx-auto text-xl font-bold">
+                    <i class="fa-solid fa-road"></i>
+                </div>
+                <h4 class="font-bold text-slate-900 text-lg">Kefamenanu</h4>
+                <p class="text-xs text-slate-500">Kab. Timor Tengah Utara (TTU), jalur strategis perbatasan.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center space-y-3 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center mx-auto text-xl font-bold">
+                    <i class="fa-solid fa-flag"></i>
+                </div>
+                <h4 class="font-bold text-slate-900 text-lg">Atambua</h4>
+                <p class="text-xs text-slate-500">Kab. Belu, gerbang utama perbatasan RI - Timor Leste.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center space-y-3 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center mx-auto text-xl font-bold">
+                    <i class="fa-solid fa-water"></i>
+                </div>
+                <h4 class="font-bold text-slate-900 text-lg">Malaka</h4>
+                <p class="text-xs text-slate-500">Kab. Malaka (Betun), pesona pantai selatan Pulau Timor.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Syarat & Ketentuan Section -->
+    <section id="syarat" class="py-20 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-amber-600 uppercase tracking-widest mb-3">Ketentuan Sewa</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Syarat & Ketentuan Rental</h3>
+                <p class="text-slate-600 mt-4">Prosedur mudah dan cepat demi keamanan serta kenyamanan bersama selama berkendara di Pulau Timor.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm space-y-4">
+                    <div class="w-10 h-10 bg-amber-500 text-slate-900 font-bold rounded-xl flex items-center justify-center text-lg">1</div>
+                    <h4 class="text-xl font-bold text-slate-900">Identitas Resmi (KTP/SIM C)</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Penyewa wajib menunjukkan foto/e-KTP asli serta SIM C yang masih berlaku saat penyerahan unit kendaraan.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm space-y-4">
+                    <div class="w-10 h-10 bg-amber-500 text-slate-900 font-bold rounded-xl flex items-center justify-center text-lg">2</div>
+                    <h4 class="text-xl font-bold text-slate-900">Jaminan Pendukung</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Menyertakan kartu identitas tambahan seperti ID Card Kantor, KTM (Kartu Tanda Mahasiswa), atau Passpor/NPWP.</p>
+                </div>
+                <div class="bg-white p-8 rounded-3xl border border-slate-200 shadow-sm space-y-4">
+                    <div class="w-10 h-10 bg-amber-500 text-slate-900 font-bold rounded-xl flex items-center justify-center text-lg">3</div>
+                    <h4 class="text-xl font-bold text-slate-900">Ketentuan Penggunaan</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Kendaraan digunakan secara wajar di wilayah Pulau Timor, dilarang untuk balap liar atau memindahkan kepemilikan sewa kepada pihak lain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12 mt-auto border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+            <div>
+                <div class="flex items-center space-x-3 mb-3">
+                    <div class="bg-amber-500 text-slate-900 p-2 rounded-lg font-bold text-lg">
+                        <i class="fa-solid fa-motorcycle"></i>
+                    </div>
+                    <span class="text-xl font-black tracking-tight text-white">ANGKASA <span class="text-amber-400">03</span></span>
+                </div>
+                <p class="text-slate-400 text-sm">Penyedia jasa rental motor terpercaya di Kota Kupang.</p>
+            </div>
+            <div class="text-center md:text-left text-slate-400 text-sm">
+                <p class="mb-1"><i class="fa-solid fa-location-dot text-amber-400 mr-2"></i> Jl. Taebenu, Penfui, Kec. Maulafa, Kota Kupang, Nusa Tenggara Timur. 85148</p>
+                <p><i class="fa-brands fa-whatsapp text-emerald-400 mr-2"></i> WhatsApp CS: +62 821-4468-0498</p>
+            </div>
+            <div class="text-md md:text-right text-slate-500">
+                &copy; 2026 Angkasa 03. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Kalkulator & WhatsApp -->
+    <script>
+        function pilihMotor(namaArmada, hargaDefault) {
+            const selectArmada = document.getElementById('pilihanArmada');
+            for(let i=0; i<selectArmada.options.length; i++) {
+                if(selectArmada.options[i].value === namaArmada) {
+                    selectArmada.selectedIndex = i;
+                    break;
+                }
+            }
+            hitungTotal();
+            // Scroll ke kalkulator
+            document.getElementById('kalkulator').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function hitungTotal() {
+            const selectArmada = document.getElementById('pilihanArmada');
+            const selectedOption = selectArmada.options[selectArmada.selectedIndex];
+            const hargaUnitPerHari = parseInt(selectedOption.getAttribute('data-harga'));
+            const namaArmada = selectedOption.value;
+
+            const jumlahHari = parseInt(document.getElementById('jumlahHari').value) || 1;
+            
+            const selectWilayah = document.getElementById('wilayahTujuan');
+            const selectedWilayahOpt = selectWilayah.options[selectWilayah.selectedIndex];
+            const ongkirPerHari = parseInt(selectedWilayahOpt.getAttribute('data-ongkir'));
+            const namaWilayah = selectedWilayahOpt.value;
+
+            // Hitung total unit dan total tambahan wilayah (mengikuti durasi hari sewa)
+            const totalUnit = hargaUnitPerHari * jumlahHari;
+            const totalOngkir = ongkirPerHari * jumlahHari;
+            const totalKeseluruhan = totalUnit + totalOngkir;
+
+            // Update UI
+            document.getElementById('labelArmada').innerText = `${namaArmada} (${jumlahHari} Hari)`;
+            document.getElementById('hargaUnit').innerText = formatRupiah(totalUnit);
+            document.getElementById('labelWilayah').innerText = `Wilayah: ${namaWilayah} (${jumlahHari} Hari)`;
+            document.getElementById('hargaOngkir').innerText = totalOngkir > 0 ? formatRupiah(totalOngkir) : 'Bebas biaya tambahan';
+            document.getElementById('totalHarga').innerText = formatRupiah(totalKeseluruhan);
+        }
+
+        function formatRupiah(angka) {
+            return 'Rp ' + angka.toLocaleString('id-ID');
+        }
+
+        function kirimWhatsApp() {
+            const nama = document.getElementById('namaLengkap').value.trim();
+            const wa = document.getElementById('noWa').value.trim();
+            
+            if(!nama || !wa) {
+                alert('Mohon isi Nama Lengkap dan Nomor WhatsApp terlebih dahulu.');
+                return;
+            }
+
+            const selectArmada = document.getElementById('pilihanArmada');
+            const armada = selectArmada.value;
+            const jumlahHari = document.getElementById('jumlahHari').value;
+            const wilayah = document.getElementById('wilayahTujuan').value;
+            const titikJemput = document.getElementById('titikJemput').value;
+            const total = document.getElementById('totalHarga').innerText;
+
+            const pesan = `Halo Admin Angkasa 03, saya ingin melakukan reservasi rental motor dengan detail berikut:
+%0A*Nama:* ${nama}
+%0A*No. WhatsApp:* ${wa}
+%0A*Armada:* ${armada}
+%0A*Durasi:* ${jumlahHari} Hari
+%0A*Wilayah Tujuan:* ${wilayah}
+%0A*Titik Penjemputan:* ${titikJemput}
+%0A*Estimasi Total:* ${total}
+%0A%0AMohon konfirmasi ketersediaannya. Terima kasih!`;
+
+            const nomorAdmin = "6282144680498"; // Ganti dengan nomor WhatsApp operasional
+            const urlWa = `https://wa.me/${nomorAdmin}?text=${pesan}`;
+            window.open(urlWa, '_blank');
+        }
+
+        // Jalankan kalkulator saat halaman dimuat pertama kali
+        window.onload = function() {
+            hitungTotal();
+        };
+    </script>
+</body>
+</html>
